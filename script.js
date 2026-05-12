@@ -50,7 +50,7 @@ const experience = [
     points: [
       "Build and maintain scalable platforms for autonomous kitchen systems.",
       "Develop full stack applications with Django, Next.js, and NestJS.",
-      "Design secure infrastructure (networking, data protection, backups).",
+      "Design and manage secure infrastructure, including network architecture (UniFi, TP-Link) and data protection (Synology NAS).",
     ],
   },
   {
@@ -82,7 +82,7 @@ projectsGrid.innerHTML = projects
     (p) => `
   <article class="project-card reveal rounded-2xl border border-border bg-card shadow-card">
     <img
-      src="public/images/projects/${p.image}"
+      src="assets/images/projects/${p.image}"
       alt="${p.title}"
       class="rounded-t-2xl aspect-radio w-full object-cover"
     />
