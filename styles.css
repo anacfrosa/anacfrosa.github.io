@@ -91,3 +91,12 @@ body {
   border-color: var(--primary);
   box-shadow: 0 20px 50px -20px rgba(133, 57, 83, 0.45);
 }
+
+/* Contact links */
+.contact-link {
+  transition: background-color 0.2s ease;
+}
+
+.contact-link:hover {
+  background-color: rgba(133, 57, 83, 0.08);
+}

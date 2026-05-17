@@ -37,6 +37,10 @@ const skills = [
     items: ["Java", "Python", "Django", "NestJS", "SQL", "REST APIs", "Redis"],
   },
   {
+    group: "AI & Machine Learning",
+    items: ["PyTorch", "Scikit-learn", "Pandas", "NumPy"],
+  },
+  {
     group: "Tools",
     items: ["Git", "GitHub", "Docker", "RabbitMQ", "MQTT"],
   },
@@ -50,6 +54,7 @@ const experience = [
     points: [
       "Build and maintain scalable platforms for autonomous kitchen systems.",
       "Develop full stack applications with Django, Next.js, and NestJS.",
+      "Developed recommendation systems using scikit-learn and LLM tools, including OpenAI and Ollama.",
       "Design and manage secure infrastructure, including network architecture (UniFi, TP-Link) and data protection (Synology NAS).",
     ],
   },
@@ -170,14 +175,3 @@ if ("IntersectionObserver" in window) {
 } else {
   reveals.forEach((el) => el.classList.add("is-visible"));
 }
-
-// ---- Contact form ----
-const form = document.getElementById("contactForm");
-const submitBtn = document.getElementById("submitBtn");
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
-  // Wire up to your backend (Resend, Formspree, etc.)
-  submitBtn.textContent = "Message sent ✓";
-  form.reset();
-  setTimeout(() => (submitBtn.textContent = "Send Message"), 4000);
-});
