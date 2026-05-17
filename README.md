@@ -6,7 +6,7 @@ The color palette was selected using Color Hunt, while the design inspiration ca
 
 ## Design Inspiration
 
-- Color palette: https://colorhunt.co/
+- Color palette: https://colorhunt.co/palette/f3f4f4853953612d532c2c2c
 - UI inspiration:
   - https://www.lovable.dev
   - https://stitch.withgoogle.com
