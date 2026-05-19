@@ -4,7 +4,7 @@ const projects = [
     title: "Automated Kitchen Assistant Intelligent Software",
     description:
       "Built an automated kitchen inventory system using neural networks to forecast consumption and automate supply suggestions.",
-    stack: ["Next.js", "NestJS", "Python", "PyTorch", "Docker"],
+    stack: ["Next.js", "Material UI", "NestJS", "Python", "PyTorch", "Docker"],
     github: "https://github.com/anacfrosa/automated-kitchen-software",
     demo: "https://youtu.be/NOFXAmX-5xs",
     image: "master-thesis.png",
@@ -30,6 +30,7 @@ const skills = [
       "Tailwind CSS",
       "Next.js",
       "TypeScript",
+      "Material UI",
     ],
   },
   {
